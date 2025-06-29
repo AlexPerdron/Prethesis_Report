@@ -1,0 +1,77 @@
+\chapter{Evaluation}
+
+\section{Discussion}
+The system provides a modern solution to the complex process of creating, editing, and finalizing accreditation reports.
+By combining an intuitive frontend, a secure and scalable backend, and an AI module refined from PhoGPT, the project directly addresses practical challenges such as repetitive content creation, version control, and ensuring language consistency in bilingual Vietnamese-English documents.
+
+Key features like real-time editing, automated template parsing, and AI-assisted suggestions improve report quality and reduce manual effort.
+The integration of Supabase ensures secure file storage and versioning, while MongoDB manages document metadata and user activities, making collaboration more reliable.
+
+\section{Key Strengths}
+
+\textbf{Template-driven report creation:}
+Users can quickly create new projects from standardized templates stored and versioned in Supabase.
+\\ 
+\textbf{AI-assisted editing:}AI-assisted editing:
+PhoGPT offers context-aware suggestions, detects duplicated text, and supports bilingual drafting, reducing errors and saving time.
+\\
+\textbf{Seamless collaboration:}
+Secretaries, inspectors, and administrators can work on shared documents with role-based permissions managed by the backend.
+\\
+\textbf{Modern user interface:}
+Built with ViteJS and designed in Figma, the interface is clear and easy to use, improving user productivity.
+\\
+\textbf{Secure architecture:}
+Node.js backend, Supabase for file storage, and MongoDB for data provide secure, scalable, and maintainable infrastructure.
+
+\section{Comparison with Other Systems}
+
+\begin{table}[h]
+\centering
+\caption{Comparison with traditional and older systems}
+\begin{tabular}{|p{4.5cm}|p{3.5cm}|p{3cm}|p{3cm}|}
+\hline
+\textbf{Feature} & \textbf{Proposed System} & \textbf{Manual Process} & \textbf{Older Local Tools} \\ \hline
+AI-assisted content suggestions & Yes (PhoGPT) & No & No \\ \hline
+Bilingual template parsing & Yes & No & Partial \\ \hline
+File version control & Supabase & Local folders & Local only \\ \hline
+Real-time collaboration & Supported & Not supported & Limited \\ \hline
+Modern UI/UX & ViteJS + Figma design & Complex, inconsistent & Outdated \\ \hline
+Automated draft and validation & Yes & Manual editing & Partial \\ \hline
+\end{tabular}
+\end{table}
+
+The system stands out thanks to AI refinement and modern cloud-based architecture.
+
+\section{Evaluation of the System: Human Approach and Comparative Analysis}
+
+\subsection{Human Evaluation}
+A pilot test with secretaries and inspectors showed:
+\begin{itemize}
+    \item Faster creation of reports from templates.
+    \item Easier editing, previewing, and exporting.
+    \item AI suggestions improved document quality and consistency.
+    \item Positive feedback for the clear dashboard and Word-like workspace.
+\end{itemize}
+
+Users highlighted that the system reduced repetitive work and simplified collaboration.
+
+\subsection{Comparison of AI Models (Open Source vs. Closed Source)}
+\begin{table}[h]
+\centering
+\caption{Comparison of different AI models}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Model} & \textbf{Vietnamese Adaptation} & \textbf{Accuracy} & \textbf{Customizability} \\ \hline
+PhoGPT (refined) & High & High  & High \\ \hline
+GPT-4 & Moderate & Very High & Moderate \\ \hline
+Qwen & Moderate & Moderate & Moderate \\ \hline
+\end{tabular}
+\end{table}
+
+PhoGPT was selected because it naturally handles Vietnamese documents and is more cost-effective and adaptable than closed-source alternatives.
+
+\section{Summary}
+The evaluation shows that the system effectively streamlines accreditation workflows.  
+AI integration with PhoGPT enhances quality and consistency; Supabase and MongoDB ensure secure, scalable data handling; and modern UI improves user experience.  
+Overall, the system significantly reduces manual workload while maintaining quality and compliance.
